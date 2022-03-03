@@ -1,0 +1,12 @@
+/* table {
+  border: 1px solid black;
+} */
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* collapse dewar karon ashe pashe gap gulake remove kora */
+  padding: 15px;
+}
