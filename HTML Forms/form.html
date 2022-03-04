@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <form action="useraccount.php" method="GET">
+        <label for="username">Username :</label>
+        <br>
+        <input id="username" type="text">
+        <br>
+
+        <label for="password">Password :</label>
+        <br>
+        <input id="password" name="" type="password">
+        <br>
+<!-- same name so uncheck hoye jabe onno ta click korle-->
+        <label for="password">Gender :</label>
+        <br>
+        <input id="Male" name="gender" type="radio" value="male" > Male
+        <input id="Female" name="gender" type="radio" value="female" > Female
+
+        <!-- same name na so uncheck hoye jabe na onno ta click korle-->
+        <br>
+
+        <label for="password">Gender :</label>
+        <br>
+        <input id="Male" name="gender" type="radio" value="male" > Male
+        <input id="Female" name="geender" type="radio" value="female" > Female
+        <br>
+        <button type="button">Submit</button>
+        <!-- also input/submit can be used as a submit-->
+        <br>
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
